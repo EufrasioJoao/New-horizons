@@ -80,8 +80,6 @@ function show() {
 
 
 
-
-
 //reveal
 
 window.addEventListener("scroll", reveal)
@@ -100,4 +98,4 @@ function reveal() {
             reveal[i].classList.remove("active")
         }
     }
-}
+} 
