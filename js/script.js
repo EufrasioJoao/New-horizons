@@ -1,7 +1,7 @@
 //fancy
-const text = document.querySelector(".fancy");
-const strText = text.textContent;
-const splitText = strText.split("");
+var text = document.querySelector(".fancy");
+var strText = text.textContent;
+var splitText = strText.split("");
 text.textContent = '';
 
 for (let i = 0; i < splitText.length; i++) {
