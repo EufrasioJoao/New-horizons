@@ -4,30 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jay company</title>
+    <title>New Horizons Techs</title>
     
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/logo/Jay_Campany.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .header-section{
+            background: #fff !important;
+        }
+        .navigation ul li a{
+            color: #000 !important;
+        }
+        .logo span{
+            color: rgb(231, 124, 1) !important;
+        }
+        #termos{
+            transform: translateY(-100px);   
+        }
+        /*ul li, ol li{
+            margin-left: 50px;
+        }*/
+        @media (max-width: 600px){
+            #termos{
+                transform: translateY(0);   
+                margin: 50px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     
-    
+    <section class="header-section" id="baaa">
+        <header>
+            <div class="divlogos navigation">
+                <img src="images/logo1.png" width="60px" alt="">
+                <a href="#" class="btn">Log in</a>
+            </div>
+            <nav class="navigation navigation2">
+                <div class="logo">New <span>Horizons</span></div>
+                <ul id="side">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="terms.html">TERMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <div class="more-info">
+                        <div class="logo fixed-logo">New <span>Horizons</span></div>
+                        <img src="images/cancelar.png" id="close" alt="">
+                        <div class="row">
+                            <a href="#"><img src="images/facebook-3(1).png" alt=""></a>
+                            <a href="#"><img src="images/bate-papo-1.png" alt=""></a>
+                            <a href="#"><img src="images/twitter.png" alt=""></a>
+                            <a href="#"><img src="images/instagram.png" alt=""></a>
+                        </div>
+                    </div>
+                </ul>
+                <img src="images/menu.png" id="menu" alt="">
+            </nav>
+        </header>
+        
+
+
+        
+    </section>
         
 
     <section id="termos">
-        <h1>POLÍCIA DE DADOS</h1>
+        <div class="small-container">
+        <h1 class="fancy">POLÍCIA DE DADOS..</h1>
         <h5>Política de Privacidade</h5>
         <hr />
         
-        <p id="termos-intro">
-A sua privacidade é importante para nós. É política da JAY Campany respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site JAY Campany, e outros sites que possuímos e operamos.
-Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
-Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
-Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
-O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.
-Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
-O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.
+        <p id="termos-intro">A sua privacidade é importante para nós. É política da JAY Campany respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site JAY Campany, e outros sites que possuímos e operamos.
+        Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
+        Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+        Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+        O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.
+        Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados. O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.
         </p>
         <br /><br />
         <div id="lists-t">
@@ -82,40 +134,45 @@ Esta licença será automaticamente rescindida se você violar alguma dessas res
             </ul>
         </div>
         <br /><br />
+        </div>
     </section>
 
 
-
-    <footer>
-        <div class="footer-cols">
-            <h4>Quick links</h4>
-            <ul>
-                <li><a href="terms.html">Termos de uso e serviços</a></li>
-                <li><a href="services.html">Nossos serviços</a></li>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="contact.html">Contactos</a></li>
-            </ul>
-        </div>
-        <div class="footer-cols">
-            <h4>Redes sociais</h4>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">WhatsApp</a></li>
-            </ul>
-        </div>
-        <div class="footer-cols" id="okk">
-            <h4>Termos de uso</h4>
-            <ul>
-                <li><a href="#">Politica de Dados<br>Politica de privacidade</a></li>
-            </ul>
-        </div>
-    </footer>
     
+    <footer class="footer">
+        <div id="f-row" class="reveal">
+            <div class="f-cols">
+                <h3>Download our App</h3>
+                <p>Download app for Android and <br>IOS on mobile phone</p>
+                <img src="images/play-store.png" alt=""> 
+                <img src="images/app-store.png" alt="">
+            </div>
+            <div class="f-cols">
+                <img src="images/play-store.png" id="f-logo" alt="">
+                <br>
+                <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. <br>Illum, soluta excepturi!</p>
+            </div>
+            <div class="f-cols">
+                <h3>Useful links</h3>
+                <p><a href="#">Coupons</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">Policy</a></p>
+                <p><a href="#">Join</a></p>
+            </div>
+            <div class="f-cols">
+                <h3>Follow us</h3>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Youtube</a></p>
+            </div>
+        </div>
+        <div id="hrr"></div>
+        <p id="copy">Copy Right&copy; 2022 - Frasio joao</p>
+    </footer>
     
   
   <!-- js -->
-  <script src="main.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>

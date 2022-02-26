@@ -4,113 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jay company</title>
+    <title>New Horizons Techs</title>
     
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/logo/Jay_Campany.png">
-    
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .header-section{
+            background: #fff !important;
+        }
+        .navigation ul li a{
+            color: #000 !important;
+        }
+        .logo span{
+            color: rgb(231, 124, 1) !important;
+        }
+        .contact{
+            transform: translateY(-100px);
+        }
+        @media (max-width: 600px){
+            .contact{
+                transform: translateY(0);   
+                margin: 50px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    
-    <!-- header section    -->
-    <section id="header-section-contact">
+
+    <section class="header-section" id="baaa">
         <header>
-            <img src="img/logo/Jay_Campany.png" id="logo">
-            <nav id="navbar">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="services.html">Serviços</a></li>
-                    <li><a href="contact.html">Contacte</a></li>
-                    <li><a href="terms.html">Termos</a></li>
+            <div class="divlogos navigation">
+                <img src="images/logo1.png" width="60px" alt="">
+                <a href="#" class="btn">Log in</a>
+            </div>
+            <nav class="navigation navigation2">
+                <div class="logo">New <span>Horizons</span></div>
+                <ul id="side">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="terms.html">TERMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <div class="more-info">
+                        <div class="logo fixed-logo">New <span>Horizons</span></div>
+                        <img src="images/cancelar.png" id="close" alt="">
+                        <div class="row">
+                            <a href="#"><img src="images/facebook-3(1).png" alt=""></a>
+                            <a href="#"><img src="images/bate-papo-1.png" alt=""></a>
+                            <a href="#"><img src="images/twitter.png" alt=""></a>
+                            <a href="#"><img src="images/instagram.png" alt=""></a>
+                        </div>
+                    </div>
                 </ul>
+                <img src="images/menu.png" id="menu" alt="">
             </nav>
-            <div id="menu-div">
-            <input type="checkbox" name="check" id="check" />
-            <label for="check"><img src="img/menu.png" alt="" /></label>
-            <div id="barra">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="services.html">Serviços</a></li>
-                    <li><a href="contact.html">Contacte</a></li>
-                    <li><a href="terms.html">Termos</a></li>
-                </ul>
-            </div>
-            </div>
         </header>
         
-        <div id="content">
-            <h3><span>Jay Company©| all rights reserved</span></h3>
-            <h2>Mande a sua mensagem<br>Tire as suas dúvidas e amplie o <br>seu negocio</h2>
-            <p>Terá suporte a sua disposição <br />24h por dia</p>
-            <br />
-            <a href="#">Saiba mais</a>
-        </div>
+
+
         
-        <div id="circle"></div>
-        <div id="quadro"></div>
     </section>
     
     
-    
-    <!--  contact -->
-    <section id="contact">
-        <h1>Nos contacte</h1>
-        <div id="contact-row">
+    <section class="contact">
+        <div class="small-container">
+            <h2 class="fancy">Contact us..</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima harum repellat eos sapiente. Numquam distinctio eveniet architecto culpa quam debitis nobis sequi assumenda similique, autem aut porro error doloribus quasi nesciunt. Nemo itaque at aperiam architecto, a ad ipsum numquam.</p>
+            <br>
             
-            <div id="contact-col1">
-                <img src="img/contact-img.svg" alt="" />
+            <div class="row2">
+                <form class="form" action="" method="get">
+                    <div class="row">
+                        <input type="text"  placeholder="First name">
+                        <input type="text" placeholder="Last name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <textarea name="" id="" cols="30" maxlength="500" placeholder="Message" rows="10"></textarea>
+                    <input type="submit" id="send" value="SEND">
+
+                </form>
+                <div class="col4">
+                    <div class="row row3">
+                        <div class="col5">
+                            <img src="images/bate-papo-1.png" width="10px" alt="">
+                            <h5>Address</h5>
+                            <br>
+                            <p>28 Neon Tower, New<br>York City, USA</p>
+                        </div>
+                        <div class="col5">
+                            <img src="images/bate-papo-1.png" width="10px" alt="">
+                            <h5>Email</h5>
+                            <br>
+                            <p><a href="#">someby@exampe.com</a></p>
+                        </div>
+                        <div class="col5">
+                            <img src="images/bate-papo-1.png" width="10px" alt="">
+                            <h5>Call</h5>
+                            <br>
+                            <p><a href="#">+1978 555 5555</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <form action="" method="get" accept-charset="utf-8">
-                <input type="text" name="nome" id="nome" placeholder="Nome"/>
-                <input type="email" name="email" id="email" placeholder="Email" /> <br><br>
-                <input type="number" name="tel" id="tel" placeholder="Telefone" /> <br> <br>
-                <textarea name="mensagem" id=mensagem rows="8" cols="50" placeholder="Mensagem"></textarea> <br />
-                <input type="submit" name="send" id="send" value="Enviar" />
-            </form>
         </div>
-    </section>
-
-    
+    </section>    
 
 
-
-    
-    
-
-
-
-    <footer>
-        <div class="footer-cols">
-            <h4>Quick links</h4>
-            <ul>
-                <li><a href="terms.html">Termos de uso e serviços</a></li>
-                <li><a href="services.html">Nossos serviços</a></li>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="contact.html">Contactos</a></li>
-            </ul>
+    <footer class="footer">
+        <div id="f-row" class="reveal">
+            <div class="f-cols">
+                <h3>Download our App</h3>
+                <p>Download app for Android and <br>IOS on mobile phone</p>
+                <img src="images/play-store.png" alt=""> 
+                <img src="images/app-store.png" alt="">
+            </div>
+            <div class="f-cols">
+                <img src="images/play-store.png" id="f-logo" alt="">
+                <br>
+                <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. <br>Illum, soluta excepturi!</p>
+            </div>
+            <div class="f-cols">
+                <h3>Useful links</h3>
+                <p><a href="#">Coupons</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">Policy</a></p>
+                <p><a href="#">Join</a></p>
+            </div>
+            <div class="f-cols">
+                <h3>Follow us</h3>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Youtube</a></p>
+            </div>
         </div>
-        <div class="footer-cols">
-            <h4>Redes sociais</h4>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">WhatsApp</a></li>
-            </ul>
-        </div>
-        <div class="footer-cols" id="okk">
-            <h4>Termos de uso</h4>
-            <ul>
-                <li><a href="terms.html">Politica de Dados<br>Politica de privacidade</a></li>
-            </ul>
-        </div>
+        <div id="hrr"></div>
+        <p id="copy">Copy Right&copy; 2022 - Frasio joao</p>
     </footer>
-    
+
     
   
   <!-- js -->
-  <script src="main.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>

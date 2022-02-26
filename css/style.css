@@ -472,7 +472,27 @@ span.fade{
 }
 
 
-
+#termos{
+    padding: 0 100px;
+    padding-top: 50px;
+}
+#termos-intro{
+    margin-top: 16px;
+    font-size: .7em;
+    text-align: justify;
+}
+#lists-t ul{
+    padding-left: 50px;
+    font-size: .7em;
+}
+#lists-t ol{
+    font-size: .7em;
+    padding-left: 50px;
+}
+#lists-t ol li{
+    padding: 5px 0;
+    
+}
 
 
 
@@ -636,7 +656,7 @@ span.fade{
 
     /**** services ***/
     .col3{
-        flex-basis: 45%;
+        flex-basis: 100%;
     }
 
     /** contact  */
@@ -657,7 +677,27 @@ span.fade{
     }
 
 
-
+    #termos{
+        padding: 0 20px;
+        padding-top: 50px;
+    }
+    #termos-intro{
+        margin-top: 16px;
+        font-size: .7em;
+        text-align: justify;
+    }
+    #lists-t ul{
+        padding-left: 50px;
+        font-size: .7em;
+    }
+    #lists-t ol{
+        font-size: .7em;
+        padding-left: 50px;
+    }
+    #lists-t ol li{
+        padding: 5px 0;
+        
+    }
 
 
 }
